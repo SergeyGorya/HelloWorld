@@ -1,0 +1,9 @@
+.top_cart {
+  height: 400px;
+  background-image: url(img/logo.cart.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}/*# sourceMappingURL=_cart.css.map */

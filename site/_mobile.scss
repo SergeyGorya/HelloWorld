@@ -1,0 +1,182 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        &__input {
+            display: none;
+        }
+    }
+
+    .menu {
+        display: none;
+        &__mobile {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .logo {
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .title {
+        width: 343px;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .top {
+        &__text {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+        &__link {
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+    
+    .heading {
+        padding-top: 32px;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &__item {
+            grid-column: 1/ -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+
+            &_big {
+                height: 244px;
+            }
+        }
+
+    }
+
+    .footer {
+        &__content {
+            justify-content: center;
+            gap: 34px;
+        }
+        &__info {
+            gap: 100px;
+        }
+    }
+
+    .section {
+        width: 343px;
+    }
+
+    .catalog {
+        padding-top: 32px;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .product {
+        &__heading {
+            font-size: 18px;
+        }
+
+        &__price {
+            font-size: 18px;
+        }
+
+        &__sale {
+            font-size: 18px;
+        }
+
+        &__img {
+            height: 226px;
+            width: 342px;
+        }
+    }
+
+    .box__link {
+        padding-bottom: 32px;
+    }
+
+    .catalog__nav {
+        padding-top: 32px;
+        gap: 16px;
+    }
+
+    .menu__catalog__link {
+        font-size: 14px;
+    }
+
+    .select select {
+        font-size: 14px;
+    }
+
+    .cart {
+        &__name-box {
+            display: none;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__info__name {
+            font-size: 18px;
+        }
+
+        &__info__text {
+            font-size: 12px;
+        }
+
+        &__info__price {
+            font-size: 12px;
+        }
+
+        &__button {
+            width: 166px;
+            height: 37px;
+            font-size: 12px;
+            margin-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        &__form {
+            width: 343px;
+            padding-left: 0px;
+            padding-right: 0px;
+            &-button {
+                padding: 0;
+            }
+        }
+
+    }
+    .heading {
+        padding-top: 48px;
+    }
+
+    .header {
+        border-bottom: none;
+    }
+}
